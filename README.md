@@ -1,24 +1,35 @@
-# Desafío - Animaciones con CSS
+# Obrium - Consultoría Tecnológica & Desarrollo de Software
 
-## Descripción
+Este repositorio contiene el código fuente de la landing page oficial de **Obrium**, una firma especializada en consultoría tecnológica, desarrollo de software a medida, y arquitecturas elásticas en la nube.
 
-Este proyecto es la solución al desafío "Animaciones en CSS", en el cual se desarrolló un Portafolio de Fotografía de Naturaleza.
+## 🚀 Características del Proyecto
 
-## Tecnologías Utilizadas
+- **Diseño Moderno y B2B:** Interfaz de usuario (UI) minimalista, orientada a la conversión y con un estilo corporativo ("Dark Mode" con acentos claros).
+- **Micro-interacciones Premium:** Tarjetas de servicios interactivas con efectos Hover y animaciones SVG.
+- **Responsive Design:** Completamente adaptable a dispositivos móviles, tablets y pantallas de escritorio.
+- **Multimedia Optimizada:** Integración de video de fondo (Hero section) y reproductores multimedia HTML5.
+- **Íconos de Alta Disponibilidad:** Uso de Devicon CDN para asegurar que los logos de las tecnologías nunca se caigan.
 
-- **HTML5**
-- **CSS3**
+## 📁 Estructura de Archivos
 
-## Características Destacadas
+El proyecto sigue una arquitectura de carpetas limpia para un fácil mantenimiento:
 
-- **Animaciones en la Galería:** Todas las imágenes inician con un filtro de escala de grises. Al posicionar el cursor, se restaura el color original y se aplica un sutil efecto de acercamiento.
-
-- **Menú Responsivo:** Implementado con CSS Grid y Flexbox.
-
-- **Lightbox (Carrusel) CSS Puro:** Se implementó un visualizador de imágenes a pantalla completa con controles de navegación.
-
-- **Estructura Modular:** Categorías separadas integradas.
+```text
+PAGINA BENJA/
+│
+├── index.html               # Archivo principal de la estructura web
+├── README.md                # Documentación del proyecto
+└── assets/
+    ├── css/
+    │   └── style.css        # Hoja de estilos con variables y diseño responsivo
+    ├── images/
+    │   ├── fondo inicio.png # Imagen de fondo con efecto Parallax
+    │   ├── logo.png         # Logo principal de navegación
+    │   └── logo pestaña.png # Favicon de la web
+    └── video/
+        └── 1.mp4            # Video corporativo promocional
 
 ## Enlace al Proyecto
 
-- [Ver proyecto en vivo aquí](https://SergioMonroyVldivia.github.io/Desafio-Animaciones-CSS/).
+- [Ver proyecto en vivo aquí](https://SergioMonroyVldivia.github.io/obrium-landing-page/).
+```
